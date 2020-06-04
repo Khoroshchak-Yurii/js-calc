@@ -1,8 +1,10 @@
-const display = document.querySelector(".displat");
+const display = document.querySelector('.display');
+const btnEq = document.querySelector('.btn-eq');
+
 
 document.querySelectorAll(".digits button")
-  .forEach((button) => button.addEventListener("click", digitPressed));
+    .forEach( button => document.addEventListener('click', digitPressed) )
 
 function digitPressed(ev) {
-  display.value += ev.target.innerText;
+    display.value += ev.target.innerText;
 }
