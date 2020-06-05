@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
+
 <body>
     <div class="clock">
 
     </div>
-    <input type="text" class="display" placeholder="try me">
+    <input type="text" class="display" placeholder="0">
     <div class="digits">
         <button>1</button>
         <button>2</button>
@@ -21,16 +23,16 @@
         <button>7</button>
         <button>8</button>
         <button>9</button>
-        <button>0</button>
+        <button class="div-by-zero">0</button>
     </div>
     <hr>
     <div class="opers">
-        <button>+</button>
-        <button>*</button>
-        <button>-</button>
-        <button>/</button>
-        <button>**</button>
-        <button>.</button>
+        <button class="add">+</button>
+        <button class="mult">*</button>
+        <button class="minus">-</button>
+        <button class="divide">/</button>
+        <button class="power">**</button>
+        <button class="dot">.</button>
     </div>
     <div class="btn-erase">
         <button>AC</button>
@@ -41,4 +43,5 @@
     <button class="btn-eq">=</button>
     <script src="js/index.js"></script>
 </body>
+
 </html>
